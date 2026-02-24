@@ -1,0 +1,38 @@
+{
+  "production_norm": 5.049577948487112e-06,
+  "background_scale": 0.9923413806890872,
+  "objective_value": 0.1452602793785379,
+  "target_significance": 1.64,
+  "fit_points": [
+    {
+      "mass_mev": 10.0,
+      "epsilon_limit": 1e-05,
+      "source": "Conservative envelope of published low-energy visible beam-dump contours (approximate anchor)",
+      "predicted_significance": 2.18600618230259,
+      "target_significance": 1.64,
+      "fractional_error": 0.3329305989649938,
+      "expected_signal": 56318.91917684145,
+      "expected_background": 128804.4262693327
+    },
+    {
+      "mass_mev": 20.0,
+      "epsilon_limit": 8e-06,
+      "source": "Conservative envelope of published low-energy visible beam-dump contours (approximate anchor)",
+      "predicted_significance": 1.2087644727482145,
+      "target_significance": 1.64,
+      "fractional_error": -0.26294849222669847,
+      "expected_signal": 17278.37637529131,
+      "expected_background": 71458.72962783257
+    },
+    {
+      "mass_mev": 30.0,
+      "epsilon_limit": 5e-06,
+      "source": "Conservative envelope of published low-energy visible beam-dump contours (approximate anchor)",
+      "predicted_significance": 0.8105504158871526,
+      "target_significance": 1.64,
+      "fractional_error": -0.505761941532224,
+      "expected_signal": 8209.08879296866,
+      "expected_background": 50626.47866294094
+    }
+  ]
+}

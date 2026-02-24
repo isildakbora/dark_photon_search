@@ -1,0 +1,30 @@
+{
+  "target_significance": 1.64,
+  "calibration_mc_samples_per_point": 16000,
+  "background_scale_scan": {
+    "log10_min": -4.0,
+    "log10_max": 2.0,
+    "steps": 600
+  },
+  "background_scale_prior": {
+    "center": 1.0,
+    "weight": 0.03
+  },
+  "anchor_points": [
+    {
+      "mass_mev": 10.0,
+      "epsilon_limit": 1.0e-05,
+      "source": "Conservative envelope of published low-energy visible beam-dump contours (approximate anchor)"
+    },
+    {
+      "mass_mev": 20.0,
+      "epsilon_limit": 8.0e-06,
+      "source": "Conservative envelope of published low-energy visible beam-dump contours (approximate anchor)"
+    },
+    {
+      "mass_mev": 30.0,
+      "epsilon_limit": 5.0e-06,
+      "source": "Conservative envelope of published low-energy visible beam-dump contours (approximate anchor)"
+    }
+  ]
+}

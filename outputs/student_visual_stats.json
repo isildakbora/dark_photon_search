@@ -1,0 +1,21 @@
+{
+  "sampled_dark_photons": 4000.0,
+  "sampled_muons": 2000.0,
+  "n_decays_in_volume": 1290.0,
+  "n_detected_signal": 518.0,
+  "n_muons_passed_veto": 40.0,
+  "n_muons_rejected_cherenkov": 40.0,
+  "n_muons_after_cherenkov": 0.0,
+  "n_muons_misidentified": 0.0,
+  "n_electron_candidates_total": 1036.0,
+  "n_vertex_matched_pairs": 518.0,
+  "n_true_signal_pairs": 124.0,
+  "pair_purity": 0.23938223938223938,
+  "cherenkov_muon_veto_efficiency": 0.995,
+  "vertex_match_window_m": 0.01,
+  "expected_signal_count": 56274.709552198394,
+  "expected_background_count": 128804.42626933272,
+  "expected_significance": 2.1842901956643597,
+  "reco_mass_mean_mev": 4.062745319371023,
+  "reco_mass_std_mev": 3.391654119423294
+}

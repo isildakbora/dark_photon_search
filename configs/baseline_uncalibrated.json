@@ -1,0 +1,60 @@
+{
+  "beam": {
+    "beam_energy_gev": 0.5,
+    "electrons_on_target": 10000000000000.0,
+    "target_atomic_number": 82,
+    "target_thickness_radiation_lengths": 10.0,
+    "shield_length_m": 2.0,
+    "decay_volume_length_m": 4.0,
+    "run_time_s": 172800.0
+  },
+  "detector": {
+    "tracker_acceptance": 0.75,
+    "pair_reco_efficiency": 0.82,
+    "cherenkov_electron_efficiency": 0.9,
+    "cherenkov_muon_misid_rate": 0.005,
+    "scintillator_veto_efficiency_muons": 0.98,
+    "scintillator_false_veto_rate": 0.01,
+    "minimum_pair_opening_angle_rad": 0.02,
+    "background_mass_spectrum_beta": 0.85,
+    "background_reference_mass_mev": 50.0
+  },
+  "background": {
+    "beam_muon_rate_hz": 500.0,
+    "cosmic_muon_rate_hz": 50.0,
+    "accidental_electron_like_rate_hz": 0.2,
+    "background_uncertainty_fraction": 0.2
+  },
+  "model": {
+    "production_norm": 1e-09,
+    "production_energy_scale_gev": 0.3,
+    "min_energy_fraction": 0.2,
+    "max_energy_fraction": 0.95,
+    "energy_fraction_shape": 2.0
+  },
+  "scan": {
+    "mass_mev_values": [
+      5.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0,
+      150.0,
+      200.0
+    ],
+    "epsilon_values": [
+      1e-07,
+      3e-07,
+      1e-06,
+      3e-06,
+      1e-05,
+      3e-05,
+      0.0001
+    ],
+    "mc_samples_per_point": 8000,
+    "seed": 7
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "sampled_dark_photons": 4000.0,
+  "sampled_muons": 2000.0,
+  "n_decays_in_volume": 1295.0,
+  "n_detected_signal": 518.0,
+  "n_muons_passed_veto": 38.0,
+  "n_muons_misidentified": 0.0,
+  "expected_signal_count": 56274.709552198394,
+  "expected_background_count": 128804.42626933272,
+  "expected_significance": 2.1842901956643597,
+  "magnet_enabled": 1.0,
+  "magnet_start_m": 6.25,
+  "magnet_end_m": 6.75,
+  "electron_kick_mrad": 55.0,
+  "muon_kick_mrad": 3.8500000000000005,
+  "mean_abs_electron_deflection_mm": 16.49999999999999,
+  "mean_abs_muon_deflection_mm": 1.154999999999998
+}
